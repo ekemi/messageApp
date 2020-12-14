@@ -15,7 +15,13 @@
   <div class="ui small inverted menu">
   <div class= "ui container">
       <a class="item">
-        chatroom
+        <%=link_to 'chatroom', root_path%>
+      </a>
+      <a class="item">
+       <%=link_to  'Log in', login_path, class:"nav-link" %>
+      </a>
+      <a class="item">
+        Log Out
       </a>
       <a class="item">
         Messages
